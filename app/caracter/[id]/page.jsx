@@ -13,6 +13,8 @@ export default async function Caracter({ params }) {
 
   const test = await data[0];
 
+  console.log(test);
+
   return (
     <main>
       <Navbar />
